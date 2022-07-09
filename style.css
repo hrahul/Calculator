@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right,#0C7BB3,#F2BAE8);
+    font-family: 'Varela Round', sans-serif;
+
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(8,100px);
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.grid>button{
+    outline: none;
+    border: white 1px solid;
+    cursor: pointer;
+    font-size: large;
+    background-color: rgb(255,255, 255,0.5);
+    font-size: 1.5rem;
+    font-family: 'Varela Round', sans-serif;
+}
+.grid>button:hover{
+    background-color: rgb(255,255, 255,0.9);
+}
+
+.span-two{
+    grid-column: span 2;
+}
+
+.output{
+    background: #021b27;
+    grid-column: 1/-1;
+    font-size: x-large;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+}
+.output .previous{
+    color: rgb(255,255, 255,0.5);
+}
+.output .current{
+    color: rgb(255,255, 255,0.9);
+    font-size: 2rem;
+}
+
+
