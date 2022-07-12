@@ -1,16 +1,17 @@
 body{
-    margin: 0;
-    padding: 0;
     background: linear-gradient(to bottom right,#0C7BB3,#F2BAE8);
     font-family: 'Varela Round', sans-serif;
-
 }
 .header{
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-top: 20px;
 }
+
 .main{
 
     display: flex;
